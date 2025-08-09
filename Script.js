@@ -9,4 +9,8 @@ function tarifaKilovatio (){
 const cargoFijo = function() {
     return 3500; 
 }
+ 
+const porcentajeIva = function(){ 
+    return 19;
+}
 
