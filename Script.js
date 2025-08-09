@@ -16,4 +16,7 @@ const porcentajeIva = function(){
  const calcularSubtotal = () => {
     return consumoMensual() * tarifaKilovatio();
  }
+const calcularIva = () => { 
+    return (calcularSubtotal () * porcentajeIva()) / 100;
+ }
 
