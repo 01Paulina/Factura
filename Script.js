@@ -5,3 +5,8 @@ function consumoMensual (){
 function tarifaKilovatio (){
     return 620;
 }
+/*función del cargo fijo*/
+const cargoFijo = function() {
+    return 3500; 
+}
+
