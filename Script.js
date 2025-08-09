@@ -19,4 +19,7 @@ const porcentajeIva = function(){
 const calcularIva = () => { 
     return (calcularSubtotal () * porcentajeIva()) / 100;
  }
+const calculoTotal = () => {
+    return calcularSubtotal() + porcentajeIva() + cargoFijo();
+ }
 
