@@ -22,4 +22,16 @@ const calcularIva = () => {
 const calculoTotal = () => {
     return calcularSubtotal() + porcentajeIva() + cargoFijo();
  }
+ function imprimirFactura(){
+    console.log("factura de energia");
+    console.log("consumo mensual: " + consumoMensual() + "KWH");
+    console.log("tarifa por KWH: $" + tarifaKilovatio());
+    console.log("subtotal (consumo X tarifa) : $" + calcularSubtotal());
+    console.log("IVA (" + porcentajeIva() + "%): $" + calcularIva());
+    console.log("cargo fijo por servicio: $" + cargoFijo());
+    console.log(" TOTAL A PAGAR: $" + calculoTotal());
+ }
+
+ imprimirFactura();
+
 
