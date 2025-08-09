@@ -13,4 +13,7 @@ const cargoFijo = function() {
 const porcentajeIva = function(){ 
     return 19;
 }
+ const calcularSubtotal = () => {
+    return consumoMensual() * tarifaKilovatio();
+ }
 
